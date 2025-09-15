@@ -1107,7 +1107,7 @@
 
 /* Background section */
 .section--bg {
-    background: url("/images/smp_2.png") no-repeat center center/cover;
+    background: url("https://github.com/hoiyannyc/inkroot/blob/main/images/smp_2.png") no-repeat center center/cover;
     padding: 80px 20px;
     position: relative;
   }
