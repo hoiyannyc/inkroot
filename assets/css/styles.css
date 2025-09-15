@@ -372,6 +372,9 @@
     .nav__menu {
       background-color: var(--dark-grey-green) !important; /* green background */
     }
+    .nav__hamburger {
+      background-color: var(--white) !important; /* white hamburger icon */
+    }
     .nav__link {
       color: var(--white) !important; /* white text */
     }
