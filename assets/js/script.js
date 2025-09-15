@@ -151,15 +151,17 @@ document.addEventListener('DOMContentLoaded', function() {
     
     function handleScroll() {
         if (window.scrollY > 100) {
-            nav.style.backgroundColor = 'rgba(255, 255, 255, 0.98)';
+            nav.style.backgroundColor = 'var(--dark-grey-green)'; // keep green
             nav.style.boxShadow = '0 4px 6px -1px rgb(0 0 0 / 0.1)';
         } else {
-            nav.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+            nav.style.backgroundColor = 'var(--dark-grey-green)'; // keep green
             nav.style.boxShadow = 'none';
         }
     }
     
     window.addEventListener('scroll', handleScroll);
+    // Ensure initial state
+    handleScroll();
 });
 
 // Intersection Observer for Animation Triggers
