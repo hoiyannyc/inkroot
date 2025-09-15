@@ -251,6 +251,12 @@
     width: 190px;
     margin: 0;
   }
+
+  @media (max-width: 767px) {
+    .nav__logo {
+      width: 140px; /* half size for mobile */
+    }
+  }
   
   .nav__toggle {
     display: flex;
@@ -1098,7 +1104,7 @@
 
 /* Background section */
 .section--bg {
-    background: url("https://raw.githubusercontent.com/hoiyannyc/inkroot/refs/heads/main/images/smp.jpg") no-repeat center center/cover;
+    background: url("/images/smp_2.png") no-repeat center center/cover;
     padding: 80px 20px;
     position: relative;
   }
