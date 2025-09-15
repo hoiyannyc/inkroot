@@ -357,6 +357,17 @@
     .nav__link {
       font-size: var(--text-base);
       padding: var(--space-2) var(--space-4);
+      color: var(--white); /* ensure white text on desktop too */
+    }
+  }
+  
+  /* Mobile menu background and text color */
+  @media (max-width: 767px) {
+    .nav__menu {
+      background-color: var(--dark-grey-green) !important; /* green background */
+    }
+    .nav__link {
+      color: var(--white) !important; /* white text */
     }
   }
   
